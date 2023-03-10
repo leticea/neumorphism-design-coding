@@ -146,3 +146,20 @@ body {
   z-index: 0;
   left: calc(100% - 37.5rem);
 }
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25rem;
+  padding: 3.125rem;
+  z-index: 200;
+  transition: 1.25s;
+  background-color: #ecf0f3;
+  overflow: hidden;
+  box-shadow: 0.25rem 0.25rem 0.625rem #d1d9e6, -0.25rem -0.25rem 0.625rem #f9f9f9;
+}
