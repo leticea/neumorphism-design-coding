@@ -14,4 +14,24 @@ let changeForm = (e) => {
   setTimeout(function () {
     switchFrm.classList.remove("is-gx");
   }, 1500);
+
+  switchFrm.classList.toggle("is-txr");
+  switchCircle[0].classList.toggle("is-txr");
+  switchCircle[1].classList.toggle("is-txr");
+
+  switchF1.classList.toggle("is-hidden");
+  switchF2.classList.toggle("is-hidden");
+
+  regFrm.classList.toggle("is-txl");
+  logFrm.classList.toggle("is-txl");
+  logFrm.classList.toggle("is-z200");
 };
+
+let mainF = (e) => {
+  for (let i = 0; i < allButtons.length; i++)
+    allButtons[i].addEventListener("click", getButtons);
+  for (let i = 0; i < switchBtn.length; i++)
+    switchBtn[i].addEventListener("click", changeForm);
+};
+
+window.addEventListener("load", mainF);

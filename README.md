@@ -11,7 +11,11 @@
   <img alt="" src=".github/image.png">
 </p>
 
-## Roll Dice
+<p align="center">
+  <img alt="" src=".github/image2.png">
+</p>
+
+## Login Page
 
 ## 🚀 Tecnologias
 
@@ -23,9 +27,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-App para rolar dado com JavaScript.
+Design de uma tela de login que muda de posição.
 
-Aula do canal [AsmrProg](https://www.youtube.com/watch?v=HuEBqPpQkMw)
+Aula do canal [AsmrProg](https://www.youtube.com/watch?v=Ra3dmxvvRF0)
 
 ## 🚀 Como Rodar
 
