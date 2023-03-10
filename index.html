@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Login Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container register-form" id="register-form">
+        <form action="" id="register-form" method="" class="form">
+          <h2 class="form-title title">Create Account</h2>
+          <div class="form-icon"></div>
+          <span class="form-span">or use email for registeration</span>
+          <input type="text" class="form-input" placeholder="Name" />
+          <input type="email" class="form-input" placeholder="Email" />
+          <input type="password" class="form-input" placeholder="Password" />
+          <button class="form-button button submit">SignUp</button>
+        </form>
+      </div>
 
-  <div class="main">
-    <div class="container register-form" id="register-form">
-      <form action="" id="register-form" method="" class="form">
-        <h2 class="form-title title">
-          Create Account
-        </h2>
-        <div class="form-icon"></div>
-        <span class="form-span">or use email for registeration</span>
-        <input type="text" class="form-input">
-      </form>
+      <div class="container login-form" id="login-form">
+        <form action="" id="login-form" method="" class="form">
+          <h2 class="form-title title">Sign in to Website</h2>
+          <div class="form-icon"></div>
+          <span class="form-span">or use your email account</span>
+          <input type="email" class="form-input" placeholder="Email" />
+          <input type="password" class="form-input" placeholder="Password" />
+          <a href="#" class="form-link">Forget Your Password?</a>
+          <button class="form-button button submit">SignIn</button>
+        </form>
+      </div>
+
+      
+
     </div>
-  </div>
 
-
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
