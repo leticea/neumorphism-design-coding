@@ -101,3 +101,48 @@ body {
   border-bottom: 1px solid #a0a5a8;
   line-height: 2;
 }
+
+.form-button {
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3;
+  color: #181818;
+}
+
+.description {
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.button {
+  width: 11.25rem;
+  height: 3.125rem;
+  border-radius: 25px;
+  margin-top: 3.125rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 1.15px;
+  background-color: #4b70e2;
+  color: #f9f9f9;
+  box-shadow: 0.5rem 0.5rem 1rem #d1d9e6, -0.5rem -0.5rem 1rem #f9f9f9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.register-form {
+  z-index: 100;
+  left: calc(100% - 37.5rem);
+}
+
+.login-form {
+  z-index: 0;
+  left: calc(100% - 37.5rem);
+}
