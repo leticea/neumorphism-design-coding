@@ -7,4 +7,11 @@ const regFrm = document.querySelector("#register-form");
 const logFrm = document.querySelector("#login-form");
 const allButtons = document.querySelectorAll(".submit");
 
+let getButtons = (e) => e.preventDefault();
 
+let changeForm = (e) => {
+  switchFrm.classList.add("is-gx");
+  setTimeout(function () {
+    switchFrm.classList.remove("is-gx");
+  }, 1500);
+};
