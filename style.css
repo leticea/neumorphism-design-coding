@@ -243,3 +243,44 @@ body {
   position: absolute;
   transition: 1.25s;
 }
+
+.is-gx {
+  animation: is-gx 1.25s;
+}
+
+@keyframes is-gx {
+  0%,
+  10%,
+  100% {
+    width: 25rem;
+  }
+
+  30%,
+  50% {
+    width: 31.25rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 1000px) {
+  .main {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    transform: scale(0.4);
+  }
+}
